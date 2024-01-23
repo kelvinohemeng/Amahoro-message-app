@@ -37,7 +37,7 @@ export default function Home() {
             ></div>
             <div className="flex flex-col bg-[#282828]">
               <div className=" px-3 py-8 flex flex-col gap-2 justify-between items-center text-white">
-                <h3 className=" font-medium text-2xl">New Album Release</h3>
+                <h3 className=" font-medium text-2xl">New Album Releas</h3>
                 <span className="small"> Lordina The Soprano</span>
               </div>
 
