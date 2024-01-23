@@ -27,3 +27,6 @@ src/pages/Overall.jsx
 src/pages/QBtos.jsx
 src/pages/VerticalJump.jsx
 src/pages/Home.jsx
+
+
+.env

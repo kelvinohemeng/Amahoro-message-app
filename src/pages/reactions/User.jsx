@@ -168,8 +168,6 @@ function User({ firebase, firestore }) {
     },
   ];
 
-  const colorOne = "#103254";
-  const colorTwo = "#3976A3";
   return (
     <>
       <div
