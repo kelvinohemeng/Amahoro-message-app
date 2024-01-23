@@ -1,86 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-@font-face {
-  font-family: "All pro";
-  src: url("/fonts/All-ProSans-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "All pro Bold";
-  src: url("/fonts/AllProDisplayB-SemiBold.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-.bold {
-  font-family: "All pro Bold", sans-serif;
-  color: #ffff;
-}
-.regular,
-p {
-  font-family: "All pro", sans-serif;
-}
-a {
-  font-size: 1.5rem !important;
-  padding: 10px;
-  transition: 300ms ease-out;
-  &:hover {
-    background-color: white;
-    border: solid 0.5px #013369;
-    color: #013369;
-    border-radius: 5px;
-  }
-}
-.scroll {
-  scrollbar-width: 1px;
-  scrollbar-color: white;
+
+h1 {
+  font-size: clamp(3rem, 6vw, 5.653rem);
+  //   letter-spacing: -2px !important;
 }
 
-.scroll::-webkit-scrollbar {
-  width: 3px;
-  position: relative;
+/* For h2 */
+h2 {
+  font-size: clamp(2rem, 4vw, 3.998rem) !important;
 }
 
-.scroll::-webkit-scrollbar-thumb {
-  width: 20px;
-  background-color: white;
-  border-radius: 6px;
+/* For h3 */
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2.827rem);
 }
 
-.scroll::-webkit-scrollbar-track {
-  position: relative;
-  scrollbar-width: 1px;
-  background-color: rgba(255, 255, 255, 0.308);
+/* For h4 */
+h4 {
+  font-size: clamp(1.8rem, 2vw, 1.999rem) !important;
 }
 
-a,
+/* For h5 */
 p,
-span,
-div {
-  font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+h5 {
+  font-size: clamp(0.8125rem, 1.5vw, 1.414rem) !important;
+  //   margin-bottom: 20px;
 }
 
-.first-place {
-  background-color: #ffbd14;
-  padding: 2px;
-
-  color: black;
-
-  text-align: center;
+/* For small text */
+small,
+.text_small {
+  font-size: clamp(0.5rem, 1vw, 0.707rem) !important;
 }
 
-.second-place {
-  background-color: #0029ff;
-  padding: 2px;
-
-  text-align: center;
-}
-
-.third-place {
-  background-color: #ef1616;
-  padding: 2px;
-
-  text-align: center;
+.btns-music {
+  &:hover {
+    span {
+      color: #00c4ff;
+      text-shadow: 0 0 15px #00c4ff;
+    }
+    svg {
+      fill: #40a9ff;
+      filter: drop-shadow(0 0 15px #00c4ff);
+    }
+  }
 }
